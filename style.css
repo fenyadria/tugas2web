@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 section {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 section h1 {
@@ -55,4 +55,27 @@ section p {
     max-width: 600px;
     margin-bottom: 20px;
     opacity: 0.8;
+}
+
+.about {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px; 
+    padding: 60px;
+    text-align: left;
+}
+
+.about h2{
+    font-size: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.about img {
+    width: 400px;
+    border-radius: 15px;
 }
