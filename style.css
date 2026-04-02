@@ -79,3 +79,32 @@ section p {
     width: 400px;
     border-radius: 15px;
 }
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    background-color: #d7c7ab;
+    padding: 15px;
+    border-radius: 15px;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.card img {
+    margin-left: 15px;
+    width: 150px;
+    border-radius: 15%;
+}
+
+.teks {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.teks h3 {
+    margin-bottom: 3px;
+    font-size: 25px;
+}
