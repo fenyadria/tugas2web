@@ -1,110 +1,172 @@
-body {
-    margin: 0;
-    background: rgb(247, 243, 218) ;
-    color: #5a4a42;
-    font-family: 'Segoe UI', sans-serif;
-    text-align: center;
+body{
+margin:0;
+background:rgb(247,243,218);
+color:#5a4a42;
+font-family:'Segoe UI',sans-serif;
+text-align:center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-    background: #eadcb897; 
-    width: 100%;
-    padding: 15px 0;
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:50px;
+background:#eadcb897;
+width:100%;
+padding:15px 0;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    width: 100%;
+.navbar{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:30px;
+width:100%;
 }
 
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #c9a770;
+nav a{
+text-decoration:none;
+color:#c9a770;
+font-weight:500;
 }
 
-nav a:hover {
-    color: #58411b;
+nav a:hover{
+color:#58411b;
 }
 
-section {
-    margin-bottom: 30px;
+section{
+margin-bottom:40px;
 }
 
-section h1 {
-    font-size: 40px;
-    color: #796037;
-    margin: 15px 0;
+section h1{
+font-size:40px;
+color:#796037;
+margin:15px 0;
 }
 
-section p {
-    max-width: 600px;
-    margin-bottom: 20px;
-    opacity: 0.8;
+section p{
+max-width:600px;
+margin-bottom:20px;
+opacity:0.8;
 }
 
-.about {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    gap: 50px; 
-    padding: 60px;
-    text-align: left;
+
+/* ABOUT */
+
+.about{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+padding:60px;
+text-align:left;
 }
 
 .about h2{
-    font-size: 40px;
+font-size:40px;
 }
 
 .about p{
-    font-size: 20px;
-    margin: 15px 0;
+font-size:20px;
+margin:15px 0;
 }
 
-.about img {
-    width: 400px;
-    border-radius: 15px;
+.about img{
+width:400px;
+border-radius:15px;
 }
 
-.card {
-    display: flex;
-    align-items: center;
-    gap: 40px;
 
-    background-color: #d7c7ab;
-    padding: 15px;
-    border-radius: 15px;
-    width: 1000px;
-    margin: 50px auto;
+/* JUDUL */
+
+.judul-biodata{
+font-size:35px;
+margin-bottom:40px;
+color:#796037;
 }
 
-.card img {
-    margin-left: 15px;
-    width: 150px;
-    border-radius: 15%;
+
+/* FOTO SAJA */
+
+#profile{
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 
-.teks {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.foto-container{
+display:flex;
+gap:40px;
 }
 
-.teks h3 {
-    margin-bottom: 3px;
-    font-size: 25px;
+.foto-card{
+text-align:center;
+}
+
+.foto-card img{
+width:150px;
+height:150px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.foto-card p{
+margin-top:10px;
+font-weight:bold;
+}
+
+
+/* PROFILE DESC */
+
+#profiledesc{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.profile-container{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+
+/* CARD */
+
+.card{
+display:flex;
+flex-direction:row;
+align-items:center;
+gap:25px;
+
+background-color:#d7c7ab;
+padding:25px;
+border-radius:20px;
+width:750px;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.card img{
+width:120px;
+border-radius:15px;
+margin-bottom:10px;
+}
+
+.teks{
+display:flex;
+flex-direction:column;
+text-align:left;
+}
+
+.teks h3{
+margin-bottom:3px;
+font-size:22px;
 }
